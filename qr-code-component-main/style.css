@@ -1,0 +1,72 @@
+/* Common reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 230px 560px;
+}
+
+.panel {
+    background-color: #FFFFFF;
+    min-width: 320px; /*change to max-width later*/
+    min-height: 499px;/*change to max-height later*/
+    padding: 16px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+}
+
+.text {
+    width: 288px;
+    height: 131px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    margin-bottom: 16px;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 120%;
+    color: #1F314F;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.faint {
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    color: #68778D;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bold,
+.faint {
+    font-family: Outfit, sans-serif;
+}
