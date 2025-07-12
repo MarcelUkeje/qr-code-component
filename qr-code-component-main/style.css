@@ -1,5 +1,4 @@
-/* Common reset */
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,26 +10,26 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 230px 560px;
+    min-height: 100vh;
 }
 
 .panel {
     background-color: #FFFFFF;
-    min-width: 320px; /*change to max-width later*/
-    min-height: 499px;/*change to max-height later*/
+    max-width: 320px; 
+    max-height: 499px;
     padding: 16px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 img {
     width: 288px;
     height: 288px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .text {
@@ -45,7 +44,8 @@ img {
 
 .bold {
     margin-bottom: 16px;
-    font-weight: bolder;
+    font-weight: bold;
+    letter-spacing: 0.3px;
     font-size: 22px;
     line-height: 120%;
     color: #1F314F;
