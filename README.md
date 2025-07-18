@@ -15,8 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This README contains information regarding my first project under Frontend Mentor. All relevant info is contained in it. You can use the Table of Contents for easy navigation.
@@ -27,8 +25,8 @@ This README contains information regarding my first project under Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MarcelUkeje/qr-code-component)
-- Live Site URL: [Add live site URL here](https://marcelukeje.github.io/qr-code-component/)
+- Solution URL: [This is the link to my repo](https://github.com/MarcelUkeje/qr-code-component)
+- Live Site URL: [View my project live here](https://marcelukeje.github.io/qr-code-component/)
 
 ## My process
 
