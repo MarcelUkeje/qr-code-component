@@ -35,7 +35,7 @@ img {
 .text {
     width: 288px;
     height: 131px;
-    margin-top: 24px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
