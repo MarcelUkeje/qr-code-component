@@ -10,15 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-block-size: 100vh;
 }
 
 .panel {
     background-color: #FFFFFF;
-    max-width: 18rem;
-    max-height: 30rem;
+    max-inline-size: 18rem;
+    max-block-size: 30rem;
     padding: 0.8rem;
-    padding-bottom: 2rem;
+    padding-block-end: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,15 +27,15 @@ body {
 }
 
 img {
-    width: 100%;
-    height: auto;
+    inline-size: 100%;
+    block-size: auto;
     border-radius: 0.8rem;
 }
 
 .text {
-    width: 16rem;
-    height: 8rem;
-    margin-top: 0.1rem;
+    inline-size: 16rem;
+    block-size: 8rem;
+    margin-block-start: 0.1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@ img {
 }
 
 .bold {
-    margin-bottom: 0.8rem;
+    margin-block-end: 0.8rem;
     font-weight: bold;
     letter-spacing: 0.01rem;
     font-size: 1.2rem;
